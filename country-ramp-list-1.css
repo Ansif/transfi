@@ -1,0 +1,297 @@
+.jqvmap-label, .jqvmap-label b {
+    font-family: inherit!important;
+}
+.map-tab-pane {
+    position: relative;
+    overflow: hidden;
+}
+#editor, .map-pointers {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+}
+.map-pointers {
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+    padding: 20px 8px;
+}
+.pointer {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.pointer span {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #ccdafc;
+    display: inline-block;
+    margin-right: 8px;
+}
+.available span {
+    background-color: #255ce8;
+}
+.coming-soon span {
+    background-color: #121b74;
+}
+.vmap-local {
+    margin-top: 0px;
+}
+.jqvmap-zoomin, .jqvmap-zoomout {
+    display: none!important;
+}
+.jqvmap-label {
+    background: #fff!important;
+    border: 1px solid #ddd!important;
+    box-shadow: 0 2px 26px rgba(228, 228, 228, .1)!important;
+    border-radius: 6px!important;
+    padding: 14px 15px 10px!important;
+    color: #525c76!important;
+    text-align: center;
+    line-height: 1.4;
+}
+.jqvmap-label:empty {
+    padding: 0!important;
+}
+.jqvmap-label b {
+    color: #202020!important;
+    font-style: normal;
+    font-weight: 700!important;
+    font-size: 16px;
+    line-height: 1;
+}
+.colorpicker, .colorpicker input {
+    font-family: Arial, Helvetica, sans-serif;
+}
+span.country-detail>b {
+    font-size: 13px;
+    font-weight: 500!important;
+    padding-right: 5px;
+    color: #525c76!important;
+}
+#vmap-local #jqvmap1_ae, #vmap-local #jqvmap1_ar, #vmap-local #jqvmap1_au, #vmap-local #jqvmap1_bd, #vmap-local #jqvmap1_bh, #vmap-local #jqvmap1_br, #vmap-local #jqvmap1_bw, #vmap-local #jqvmap1_ca, #vmap-local #jqvmap1_ch, #vmap-local #jqvmap1_cl, #vmap-local #jqvmap1_cn, #vmap-local #jqvmap1_co, #vmap-local #jqvmap1_dk, #vmap-local #jqvmap1_eg, #vmap-local #jqvmap1_at, #vmap-local #jqvmap1_be, #vmap-local #jqvmap1_hr, #vmap-local #jqvmap1_cy, #vmap-local #jqvmap1_ee, #vmap-local #jqvmap1_fi, #vmap-local #jqvmap1_fr, #vmap-local #jqvmap1_de, #vmap-local #jqvmap1_gr, #vmap-local #jqvmap1_ie, #vmap-local #jqvmap1_it, #vmap-local #jqvmap1_lv, #vmap-local #jqvmap1_lt, #vmap-local #jqvmap1_lu, #vmap-local #jqvmap1_mt, #vmap-local #jqvmap1_nl, #vmap-local #jqvmap1_pt, #vmap-local #jqvmap1_sk, #vmap-local #jqvmap1_si, #vmap-local #jqvmap1_es, #vmap-local #jqvmap1_gb, #vmap-local #jqvmap1_gh, #vmap-local #jqvmap1_hk, #vmap-local #jqvmap1_id, #vmap-local #jqvmap1_jp, #vmap-local #jqvmap1_ke, #vmap-local #jqvmap1_kr, #vmap-local #jqvmap1_mw, #vmap-local #jqvmap1_mx, #vmap-local #jqvmap1_my, #vmap-local #jqvmap1_ng, #vmap-local #jqvmap1_nz, #vmap-local #jqvmap1_pe, #vmap-local #jqvmap1_ph, #vmap-local #jqvmap1_pk, #vmap-local #jqvmap1_se, #vmap-local #jqvmap1_sg, #vmap-local #jqvmap1_th, #vmap-local #jqvmap1_tw, #vmap-local #jqvmap1_ug, #vmap-local #jqvmap1_vn, #vmap-local #jqvmap1_cm, #vmap-local #jqvmap1_cf, #vmap-local #jqvmap1_td, #vmap-local #jqvmap1_cg, #vmap-local #jqvmap1_gq, #vmap-local #jqvmap1_ga, #vmap-local #jqvmap1_za, #vmap-local #jqvmap1_zm {
+    fill: #CCDAFC;
+    fill: #6D91F0!important;
+}
+#editor-wrapper {
+    position: relative;
+    height: 200px;
+}
+#editor {
+    bottom: 0;
+    width: auto!important;
+    height: 180px!important;
+}
+.customizer-field {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.customizer-field label {
+    flex-basis: 30%;
+    font-weight: 400;
+    font-size: 12px;
+    color: #202020;
+}
+.customizer-field>div, .customizer-field>input, .customizer-field>select {
+    flex-basis: 65%}
+#amount, .color-selector input, .customizer-select {
+    background: rgba(255, 255, 255, .9);
+    box-shadow: 0 0 3.4489px rgb(31 41 55 / 12%);
+    border-radius: 6.89781px;
+    height: 30px;
+    border: none;
+    padding: 0 10px;
+}
+.color-selector {
+    position: relative;
+    display: inline-flex;
+}
+.color-selector>.color-picker {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+}
+.color-selector>input {
+    width: calc(100% - 35px);
+    margin-left: 5px;
+}
+.colorpicker {
+    width: 356px;
+    height: 176px;
+    overflow: hidden;
+    position: absolute;
+    background: url(https://cdn.jsdelivr.net/gh/Vignesh9398/Transfi/colorpicker_background.png);
+    display: none;
+}
+.colorpicker_color, .colorpicker_color div, .colorpicker_hue {
+    position: absolute;
+    height: 150px;
+}
+.colorpicker_color {
+    width: 150px;
+    left: 14px;
+    top: 13px;
+    background: red;
+    overflow: hidden;
+    cursor: crosshair;
+}
+.colorpicker_color div {
+    top: 0;
+    left: 0;
+    width: 150px;
+    background: url(https://cdn.jsdelivr.net/gh/Vignesh9398/Transfi/colorpicker_overlay.png);
+}
+.colorpicker_color div div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 11px;
+    height: 11px;
+    overflow: hidden;
+    background: url(https://cdn.jsdelivr.net/gh/Vignesh9398/Transfi/colorpicker_select.gif);
+    margin: -5px 0 0 -5px;
+}
+.colorpicker_hue {
+    top: 13px;
+    left: 171px;
+    width: 35px;
+    cursor: n-resize;
+}
+.colorpicker_current_color, .colorpicker_new_color {
+    width: 60px;
+    height: 30px;
+    top: 13px;
+    background: red;
+    position: absolute;
+}
+.colorpicker_hue div {
+    position: absolute;
+    width: 35px;
+    height: 9px;
+    overflow: hidden;
+    background: url(https://cdn.jsdelivr.net/gh/Vignesh9398/Transfi/colorpicker_indic.gif) left top;
+    margin: -4px 0 0;
+    left: 0;
+}
+.colorpicker_new_color {
+    left: 213px;
+}
+.colorpicker_current_color {
+    left: 283px;
+}
+.colorpicker input {
+    background-color: transparent;
+    border: 1px solid transparent;
+    position: absolute;
+    font-size: 10px;
+    color: #898989;
+    top: 4px;
+    right: 11px;
+    text-align: right;
+    margin: 0;
+    padding: 0;
+    height: 11px;
+}
+.colorpicker_field, .colorpicker_field span, .colorpicker_hex, .colorpicker_submit {
+    position: absolute;
+    height: 22px;
+}
+.colorpicker_hex {
+    width: 72px;
+    background: url(https://cdn.jsdelivr.net/gh/Vignesh9398/Transfi/colorpicker_hex.png) top;
+    left: 212px;
+    top: 142px;
+}
+.colorpicker_hex input {
+    right: 6px;
+}
+.colorpicker_field {
+    width: 62px;
+    background-position: top;
+}
+.colorpicker_field span {
+    width: 12px;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    cursor: n-resize;
+}
+.colorpicker_rgb_r {
+    background-image: url(https://cdn.jsdelivr.net/gh/Vignesh9398/Transfi/colorpicker_rgb_r.png);
+    top: 52px;
+    left: 212px;
+}
+.colorpicker_rgb_g {
+    background-image: url(https://cdn.jsdelivr.net/gh/Vignesh9398/Transfi/colorpicker_rgb_g.png);
+    top: 82px;
+    left: 212px;
+}
+.colorpicker_rgb_b {
+    background-image: url(https://cdn.jsdelivr.net/gh/Vignesh9398/Transfi/colorpicker_rgb_b.png);
+    top: 112px;
+    left: 212px;
+}
+.colorpicker_hsb_h {
+    background-image: url(https://cdn.jsdelivr.net/gh/Vignesh9398/Transfi/colorpicker_hsb_h.png);
+    top: 52px;
+    left: 282px;
+}
+.colorpicker_hsb_s {
+    background-image: url(https://cdn.jsdelivr.net/gh/Vignesh9398/Transfi/colorpicker_hsb_s.png);
+    top: 82px;
+    left: 282px;
+}
+.colorpicker_hsb_b {
+    background-image: url(https://cdn.jsdelivr.net/gh/Vignesh9398/Transfi/colorpicker_hsb_b.png);
+    top: 112px;
+    left: 282px;
+}
+.colorpicker_submit {
+    width: 22px;
+    background: url(https://cdn.jsdelivr.net/gh/Vignesh9398/Transfi/colorpicker_submit.png) top;
+    left: 322px;
+    top: 142px;
+    overflow: hidden;
+}
+.colorpicker_focus {
+    background-position: center;
+}
+.colorpicker_hex.colorpicker_focus, .colorpicker_slider, .colorpicker_submit.colorpicker_focus {
+    background-position: bottom;
+}
+h3.custom-title {
+    font-size: 20px;
+    border-bottom: 1px solid #d2d2d2;
+    padding-bottom: 10px;
+    margin-bottom: 40px;
+}
+@media screen and (max-width:991px) {
+    .vmap-local {
+    margin-top: 0;
+}
+#editor, .map-pointers {
+    position: relative;
+}
+}@media screen and (max-width:479px) {
+    .pointer span {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+}.map-pointers, .w-embed .vmap-global, .w-embed .vmap-local {
+    background-color: #fff!important;
+}
+.w-embed .vmap-local .jqvmap-region {
+  fill: #EBEEF4!important;
+  stroke: none!important;
+}
+.pointer {
+    color: #fff;
+}
+.not-available span {
+    background-color: rgba(241, 238, 239, .5);
+}
